@@ -1,8 +1,10 @@
 require 'httparty'
 require 'roadmap.rb'
+require 'message.rb'
 class Kele
   include HTTParty
   include Roadmap
+  include Message
   attr_reader :auth_token, :user_info
 
   def initialize(email, password)
