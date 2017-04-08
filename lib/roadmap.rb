@@ -20,8 +20,8 @@ module Roadmap
         assignment_commit_link: assignment_commit_link,
         checkpoint_id: checkpoint_id,
         comment: comment,
-        enrollment_id: @user_info["current_enrollment"]["id"]
+        enrollment_id: @user_info["current_enrollment"]["id"].to_i
       }})
-    response.parsed_response
+    response
   end
 end
