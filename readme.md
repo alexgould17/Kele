@@ -1,0 +1,2 @@
+# Welcome to kele!
+This is a very simple ruby gem that I created while completing the Web Developer Track at bloc.io. It allows an authorized bloc user to easily login to bloc via the command line & see info about their current course (roadmap, checkpoints, submissons & messages). You can also send messages via the gem! Unfortunately, I can't really setup a test environment for people to play around with kele in, as that would require a valid bloc login, but you can still see how pretty my code is! Tabs not spaces & all that ;)
